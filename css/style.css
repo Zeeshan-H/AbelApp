@@ -109,11 +109,229 @@ nav {
 }
 
 .nav-contact {
-/*	display: inline-block;
-	width: 20px;
-	height: 20px;*/
 	display: inline-block;
 	width: 150px;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 20px;
+}
+
+.banner-container {
+	width: 1199px;
+	/*background: red;*/
+	height: 606px;
+	display: flex;
+	margin: auto;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.banner-left-heading {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 54px;
+	text-transform: uppercase;
+	color: #ED1C24;
+	width: 590px;
+	height: 260px;
+	text-shadow: 2px 2px 0px #000000;
+	letter-spacing: -0.01em;
+	position: absolute;
+	left: 163px;
+	top: 231px;
+}
+
+.banner-content {
+	box-sizing: border-box;
+	position: absolute;
+	width: 341px;
+	height: 167px;
+	left: 122px;
+	top: 530px;
+	background: #FFFFFF;
+}
+
+.banner-list-items {
+	list-style-type: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	letter-spacing: -0.03em;
+	color: #000000;
+}
+
+.banner-list-items li {
+	padding: 2px;
+}
+
+.banner-sign {
+	position: absolute;
+	width: 140.45px;
+	height: 97.76px;
+	left: 388.1px;
+	top: 658px;
+	display: flex;
+	align-items: center;
+	background: #ED1C24;
+	transform: rotate(5.45deg);
+}
+
+.banner-sign span {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	/*width: 110px;*/
+	/*line-height: 36px;*/
+	margin-left: 10px;
+	color: #FFFFFF;
+	/*padding: 10px;*/
+	text-transform: uppercase;
+	/*transform: rotate(5.45deg);*/
+}
+
+.banner-image-container {
+	position: absolute;
+	width: 517px;
+	height: 383.96px;
+	left: 500px;
+	top: 375px;
+	margin-top: 20px;
+	background-image: url('../images/moving-truck.png');
+	background-repeat: no-repeat;
+
+}
+
+.banner-right-section {
+	width: 519px;
+	height: 606px;
+	background: #ED1C24;
+	position: absolute;
+	right: 0;
+	opacity: 0.8;
+}
+
+.banner-right-heading {
+	position: relative;
+	top: 40px;
+	width: 516px;
+	height: 62px;
+	letter-spacing: -0.2rem;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 62px;
+	line-height: 58px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.banner-right-subheading {
+	position: relative;
+	top: 26px;
+	line-height: 58px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+		letter-spacing: -0.05rem;
+	color: #FFFFFF;	
+}
+
+.banner-right-pickup-label {
+	position: relative;
+	left: 40%;
+	top: 40px;	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21.5741px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;	
+}
+
+.banner-pickup-date {
+	position: relative;
+	top: 80px;
+	width: 162.52px;
+	height: 45.31px;
+}
+
+.banner-pickup-time {
+	position: relative;
+	top: 80px;
+	width: 162.52px;
+	height: 45.31px;
+}
+
+.banner-right-dropoff-label {
+	position: relative;
+	left: 40%;
+	top: 120px;	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21.5741px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;		
+}
+
+.banner-dropoff-date {
+	position: relative;
+	top: 160px;
+	right: 32px;
+	width: 162.52px;
+	height: 45.31px;
+}
+
+.banner-dropoff-time {
+	position: relative;
+	top: 160px;
+	right: 32px;
+	width: 162.52px;
+	height: 45.31px;
+}
+
+.banner-right-location-label {
+	position: relative;
+	left: 40%;
+	top: 190px;	
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21.5741px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;		
+}
+
+.banner-location {
+	position: relative;
+	top: 230px;
+	left: 25px;
+	width: 338.71px;
+height: 45.31px;
+}
+
+.banner-book-btn {
+	position: relative;
+	top: 270px;
+	left: 27%;
+	width: 341.59px;
+	height: 53.94px;
+	background: #000000;
+	border-radius: 2px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 21.5741px;
+	line-height: 42px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	cursor: pointer;
 }
